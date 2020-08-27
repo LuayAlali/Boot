@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/custom.css">
     <title>Full Stack Conf</title>
   </head>
   <body  id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
@@ -300,22 +300,25 @@
                  <h5 class="mb-4">Basic Info</h5>
 
                 <div class="form-group">
-                  <label for="name">Name:</label>
-                  <input type="text" class="form-control" id="name" >
+                  <label for="validationDefault01">Name:</label>
+                  <input type="text" class="form-control" id="validationDefault01" required>
+                  
                 </div>
                 <div class="form-group">
-                  <label for="email">Email:</label>
-                  <input type="email" class="form-control" id="email" >
+                  <label for="validationDefault02">Email:</label>
+                  <input type="email" class="form-control" id="vvalidationDefault02" required>
+                 
                 </div>
                 <div class="form-group">
-                  <label for="role">Job Role:</label>
-                  <select class=" custom-select form-control" id="role">
+                  <label for="validationDefault03">Job Role:</label>
+                  <select class=" custom-select form-control" id="validationDefault03">
                     <option value="full stack js developer">Full Stack JavaScript Developer</option>
                     <option value="front end developer">Front End Developer</option>
                     <option value="back end developer">Back End Developer</option>
                     <option value="designer">Designer</option>
                     <option value="student">Student</option> 
                   </select>
+                  
                 </div>
 
                 <hr class="my-4>">
@@ -362,24 +365,24 @@
               <div class="form-row">
                 <div class="col-md-6 form-group">
                   <label for="cc-num">Card Number:</label>
-                  <input class="form-control" id="cc-num" type="text">
+                  <input class="form-control" id="cc-num" type="text" required>
                 </div>
               
                 <div class="col-md form-group">
                   <label for="zip">Zip Code:</label>
-                  <input class="form-control" id="zip" type="text">
+                  <input class="form-control" id="zip" type="text" required>
                 </div>
               
                 <div class="col-md form-group">
                   <label for="cvv">CVV:</label>
-                  <input class="form-control" id="cvv" type="text">
+                  <input class="form-control" id="cvv" type="text" required>
                 </div>
               </div>
 
               <div class="form-row">
                 <label class="col-md-12">Expiration Date:</label>
                 <div class="form-group col-md-8">
-                  <select class="custom-select form-control" id="exp-month">
+                  <select class="custom-select form-control" id="exp-month" required>
                     <option value="1">1 - January</option>
                     <option value="2">2 - February</option>
                     <option value="3">3 - March</option>
@@ -423,5 +426,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ 
   </body>
 </html>
